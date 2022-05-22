@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=downtown+Sans:wght@400;700&family=topanga+Slab:wght@300;500;700&display=swap")
+
+@import "components/container.css";
+@import "components/banner.css";
+@import "components/card.css";
+
+
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+
+
+
+
+
+body, head {
+	text-align: center;
+}
+
+body {
+	color: rgba(16, 15, 17);
+	font-family: 'downtown', serif;
+	font-weight: bolder;
+	line-height: 1.25;
+	margin: 0px auto;
+}
+
+h1 {
+	color: rgba(118, 31, 23);
+	font-family: 'Topanga', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 4px;
+	font-size: 60px;
+}
+
+h2, h3 {
+	color: rgba(118, 31, 23);
+	font-family: 'Topanga', sans-serif;
+	font-weight: bolder;
+}
+
+h4{
+	color: rgba(118, 31, 23);
+	font-family: 'Topanga', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	margin-top:5px;
+	font-size: 22px;
+}
+
+a  {
+	text-decoration: none;
+	font-family: 'Topanga', sans-serif;
+	font-weight: 700;
+	line-height: 1
+}
+
+a:hover {
+	font-family: 'Topanga', sans-serif;
+	font-weight: 700;	
+}
+
+img {
+ 	border: 5px solid rgba(16, 15, 17);
+ }

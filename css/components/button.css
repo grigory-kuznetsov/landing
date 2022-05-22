@@ -1,0 +1,32 @@
+.btn-red {
+	background-color: rgba(250, 252, 253);
+	color:rgba(16, 15, 17);
+	padding: 23px 28px;
+	position: relative;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    transition: .2s linear;
+    border: 2px solid rgba(118, 31, 23);
+    letter-spacing: 1.5px;
+    transition: .15s;
+    -webkit-appearance: none;
+    font-size: 20px;
+}
+
+.btn-red:hover {
+	background-color: rgba(250, 252, 253);
+	color:rgba(16, 15, 17);
+	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
+    align-self: flex-start;
+    border-color: var(--color-tertiary);
+}
+
+.btn-round:hover {
+	background-color: rgba(250, 252, 253);
+	color:rgba(16, 15, 17);
+	animation: slide-in-left 0.75s .5s cubic-bezier(0.46, 0.03, 0.52, 0.96) both;
+    align-self: center;
+    border-color: var(--color-tertiary);
+
+}

@@ -1,0 +1,34 @@
+
+.cards-small {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-small {
+	padding: 20px;
+    display: flex;
+    justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 6px;
+	flex-basis: 250px;
+	flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    
+}
+
+#margin-bottom {margin: 20px 30px;
+	margin-bottom: 70px;}
+#margin-normal {margin: 20px 30px;}
+
+.card-small img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card-small h3 {
+	flex-grow: 1;
+}
